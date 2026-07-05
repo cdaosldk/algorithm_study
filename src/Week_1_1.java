@@ -22,7 +22,7 @@ class Solution {
     }
 }
 
-public class Main {
+public class Week_1_1 {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] arr = {0, 1, 2, 3, 4, 5};
