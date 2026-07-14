@@ -1,3 +1,5 @@
+package week_1;
+
 // 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/181893
 // 배열 조각하기
 // 정수 배열 arr와 query가 주어집니다.
