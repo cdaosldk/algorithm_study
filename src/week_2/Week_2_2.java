@@ -2,7 +2,7 @@ package week_2;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution_2_2 {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int r1 = arr1.length;
         int c1 = arr1[0].length;
@@ -23,7 +23,7 @@ class Solution {
 
 public class Week_2_2 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_2_2 solution = new Solution_2_2();
 
         System.out.println(Arrays.deepToString(solution.solution(
             new int[][]{{1,4}, {3,2}, {4,1}}, new int[][]{{3, 3}, {3, 3}}

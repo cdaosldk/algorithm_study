@@ -15,7 +15,7 @@ package week_2;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class Solution {
+class Solution_2_1 {
     public int[] solution(int[] answers) {
         int[][] patterns = new int[][]{
                 {1, 2, 3, 4, 5},
@@ -46,7 +46,7 @@ class Solution {
 
 public class Week_2_1 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_2_1 solution = new Solution_2_1();
 
         int[] answers = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(solution.solution(answers)));
