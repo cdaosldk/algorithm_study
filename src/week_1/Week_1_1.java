@@ -11,7 +11,7 @@ package week_1;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution_1_1 {
     public int[] solution(int[] arr, int[] query) {
         for (int i = 0; i < query.length; i++) {
             if (i % 2 == 0) {
@@ -26,7 +26,7 @@ class Solution {
 
 public class Week_1_1 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_1_1 solution = new Solution_1_1();
         int[] arr = {0, 1, 2, 3, 4, 5};
         int[] query = {4, 1, 2};
 

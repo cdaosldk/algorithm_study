@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
-class Solution {
+class Solution_1_2 {
     public int[] solution(int[] numbers) {
         Set<Integer> set = new HashSet<>();
 
@@ -27,7 +27,7 @@ class Solution {
 
 public class Week_1_2 {
     public static void main(String[] args) {
-        week_1.Solution solution = new week_1.Solution();
+        Solution_1_2 solution = new Solution_1_2();
 
         // case 1
         System.out.println(Arrays.toString(solution.solution(new int[]{2, 1, 3, 4, 1})));
