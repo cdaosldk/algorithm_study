@@ -1,4 +1,4 @@
-package week_2;
+package month_1.week_2;
 
 import java.util.Arrays;
 
