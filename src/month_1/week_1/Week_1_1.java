@@ -1,4 +1,4 @@
-package week_1;
+package month_1.week_1;
 
 // 출처 : https://school.programmers.co.kr/learn/courses/30/lessons/181893
 // 배열 조각하기
