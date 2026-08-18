@@ -30,7 +30,7 @@ class Solution_6_1 {
         for (int i = board.length - 1; i >= 0; i--) {
             for (int j = 0; j < board[i].length; j++) {
                 if (board[i][j] > 0) {
-                    lanes[i].push(board[i][j]);
+                    lanes[j].push(board[i][j]);
                 }
             }
         }
@@ -38,9 +38,9 @@ class Solution_6_1 {
         Stack<Integer> bucket = new Stack<>();
         int answer = 0;
 
-        for (int i = 0; i < moves.length; i++) {
-            if (!lanes[moves[i] - 1].isEmpty()) {
-                int num = lanes[moves[i] - 1].pop();
+        for (int move : moves) {
+            if (!lanes[move - 1].isEmpty()) {
+                int num = lanes[move - 1].pop();
 
                 if (!bucket.isEmpty() && num == bucket.peek()) {
                     bucket.pop();
