@@ -1,4 +1,4 @@
-package week_7;
+package month_2.week_7;
 
 // 문자열 my_str과 n이 매개변수로 주어질 때,
 // my_str을 길이 n씩 잘라서 저장한 배열을

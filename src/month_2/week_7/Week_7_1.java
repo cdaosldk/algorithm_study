@@ -1,4 +1,4 @@
-package week_7;
+package month_2.week_7;
 
 // 양의 정수 n이 매개변수로 주어집니다.
 // n × n 배열에 1부터 n2 까지 정수를 인덱스 [0][0]부터

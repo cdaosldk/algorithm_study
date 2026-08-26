@@ -1,4 +1,4 @@
-package week_5;
+package month_2.week_5;
 
 // 프로그래머스 : 주식 가격
 // 초 단위로 기록된 주식가격이 담긴 배열 prices가 매개변수로 주어질 때,
